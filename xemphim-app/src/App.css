@@ -1,0 +1,57 @@
+/* common */
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.pointer {
+  cursor: pointer;
+}
+/* navbar */
+.menu_navbar {
+  background-color: black;
+}
+
+.loginButton {
+  background-color: #cf2122;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+}
+
+.menu_link div:hover {
+  background-color: #102c48;
+}
+
+.menu_link div:hover a {
+  color: #428bca;
+}
+
+/* main */
+.bg_main {
+  background-color: rgba(14, 39, 64, .45);
+}
+
+.bottomBorder {
+  border-bottom: 1px #1b3c5d solid;
+  margin-bottom: 1rem;
+}
+
+
+
+/* footer */
+footer {
+  background: url(./assets/Images/footer-bg.jpg);
+}
+
+.benefit li {
+  color: #b5b5b5;
+}
+
+.contact {
+  background-color: #071334;
+  width: 3rem;
+  height: 3rem;
+  border: 1px solid hsla(0,0%,100%,.36);
+}
